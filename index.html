@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Grids2</title>
+		<style id="dynamic"></style>
+		<link rel="stylesheet" href="/css/grid.css">
+	</head>
+	<body>
+
+		<div>
+			<input id="gutter" title="Gutter" type="range" min="5" max="40" step="5" value="10">
+		</div>
+
+		<div>			
+			<input id="maxWidth" title="Width" type="range" min="300" max="1000" step="20" value="800">
+		</div>
+
+		<div>
+			<input id="columns" title="Columns" type="range" min="5" max="40" step="5" value="12">
+		</div>
+
+		<div>
+			<div>
+				<input name="type" id="type-fixed" type="radio">
+				<label for="type-fixed">fixed</label>
+			</div>
+			<div>
+				<input name="type" id="type-percentage" type="radio">
+				<label for="type-percentage">percentage</label>
+			</div>
+		</div>
+
+		<div class="wrap" style="max-width:1180px;">
+
+			<div class="grid behind">
+				<div class="grid-inner">
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="col col-1">
+						<div class="col-content"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div class="foreground">
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-1">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-11">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-2">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-10">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-3">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-9">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-4">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-8">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-5">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-7">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-6">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-6">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-4">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-4">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-4">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="grid">
+					<div class="grid-inner">
+						<div class="col col-3">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-3">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-3">
+							<div class="col-content"></div>
+						</div>
+						<div class="col col-3">
+							<div class="col-content"></div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="/js/grid.js"></script>
+	</body>
+</html>
